@@ -12,6 +12,7 @@ array( "name" => "Harry Potter",
 
 //Append new character to next spot in array
 $characters[count($characters)] = array("name" => "Captain America", "email" => "captnAmerica@mail.com");
+$characters[count($characters)] = array("name" => "Superman, "email" => "superMan@mail.com");
 
 //create temp $xml string, add opening lines for xml file
 $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<characters>\n";
